@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/homeIndex/main",
+    "pages/diamondDetails/main",
+    "pages/mine/main",
+    "pages/luckyDraw/main",
+    "pages/prizeIndex/main",
+    "pages/withdrawal/main",
+    "pages/exchangeMall/main",
+    "pages/goodThing/main",
+    "pages/product/main",
+    "pages/live/main",
+    "pages/teamAward/main",
+    "pages/myReward/main",
+    "pages/rewardResult/main"
+  ],
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#BB422E",
+    "list": [
+      {
+        "pagePath": "pages/homeIndex/main",
+        "text": "福利",
+        "iconPath": "/static/images/menu-home-0.png",
+        "selectedIconPath": "/static/images/menu-home-1.png"
+      },
+      {
+        "pagePath": "pages/goodThing/main",
+        "text": "好物",
+        "iconPath": "/static/images/menu-goods-0.png",
+        "selectedIconPath": "/static/images/menu-goods-1.png"
+      },
+      {
+        "pagePath": "pages/live/main",
+        "text": "直播",
+        "iconPath": "/static/images/menu-live-0.png",
+        "selectedIconPath": "/static/images/menu-live-1.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "我的",
+        "iconPath": "/static/images/menu-mine-0.png",
+        "selectedIconPath": "/static/images/menu-mine-1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxd889b93f7e88344e",
+    "wx76190c32b2460ba1",
+    "wx116062d867cc8412",
+    "wxb6c5b1f1dcea0138",
+    "wx6bb4d07d0f44b40c"
+  ],
+  "plugins": {
+    "live-player-plugin": {
+      "version": "1.0.3",
+      "provider": "wx2b03c6e691cd7370"
+    }
+  }
+}

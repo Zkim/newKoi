@@ -1,0 +1,98 @@
+// 排版
+@import './const';
+
+// 字体大小
+.fs-xxl {
+  font-size: 60rpx;
+}
+.fs-xl {
+  font-size: 50rpx;
+}
+.fs-l {
+  font-size: 40rpx;
+}
+.fs-m {
+  font-size: 32rpx;
+}
+.fs-s {
+  font-size: 28rpx;
+}
+.fs-xs {
+  font-size: 24rpx;
+}
+
+// 字体粗细
+.fw-thin {
+  font-weight: 300;
+}
+.fw-normal {
+  font-weight: 400;
+}
+.fw-thick {
+  font-weight: 700;
+}
+
+// 字体颜色
+.c-primary {
+  color: $color-primary;
+}
+.c-default {
+  color: $color-default;
+}
+.c-secondary {
+  color: $color-secondary;
+}
+.c-tertiary {
+  color: $color-tertiary;
+}
+.c-placeholder {
+  color: $color-placeholder;
+}
+.c-white {
+  color: $color-white;
+}
+.c-gold {
+  color: $color-gold;
+}
+.c-success {
+  color: $color-success;
+}
+.c-important {
+  color: $color-important;
+}
+
+// 对齐
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+
+// 上、中、下划线
+.line-over {
+  text-decoration: overline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.line-under {
+  text-decoration: underline;
+}
+
+// 背景色
+.bg-default {
+  background: $color-bg-default;
+}
+.bg-white {
+  background: $color-white;
+}
+.bg-primary {
+  background: $color-primary;
+}
+.bg-primary-light {
+  background: rgba($color: $color-primary, $alpha: 0.6);
+}

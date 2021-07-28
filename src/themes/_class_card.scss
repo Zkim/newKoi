@@ -1,0 +1,12 @@
+// 卡片
+@import './const';
+
+.card {
+  background: $color-white;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20rpx 30rpx;
+}

@@ -1,0 +1,44 @@
+// 按钮
+@import './const';
+
+// 默认
+.btn {
+  font-size: 32rpx;
+  padding: 12rpx 32rpx;
+  border-radius: 100rpx;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+// 主
+.btn-primary {
+  color: $color-btn-primary;
+  background: $color-primary;
+}
+// 次
+.btn-secondary {
+  color: $color-btn-secondary;
+  background: $color-btn-bg-secondary;
+}
+// 镂空
+.btn-outline {
+  border: 2rpx solid $color-primary;
+  color: $color-primary;
+  background: $color-white;
+}
+// 整行
+.btn-row {
+  border-radius: 0;
+  font-size: 32rpx;
+  padding: 22rpx 32rpx;
+}
+
+// 大小
+.btn-m {
+  font-size: 32rpx;
+  padding: 22rpx 32rpx;
+}
+.btn-s {
+  font-size: 28rpx;
+  padding: 8rpx 32rpx;
+}

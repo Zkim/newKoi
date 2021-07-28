@@ -1,0 +1,81 @@
+// 页面节点，高度至少占满屏幕
+page {
+  min-height: 100%;
+  display: flex;
+  @extend .flex-y;
+}
+
+// 布局盒子，高度占满屏幕
+.container {
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+// 横向布局
+.flex-x {
+  display: flex;
+  flex-direction: row;
+}
+// 横向居中
+.flex-x-center {
+  @extend .flex-x;
+  justify-content: center;
+}
+// 横向两端布局
+.flex-x-between {
+  @extend .flex-x;
+  justify-content: space-between;
+}
+// 横向垂直居中
+.flex-x-center-y {
+  @extend .flex-x;
+  align-items: center;
+}
+
+// 纵向布局
+.flex-y {
+  display: flex;
+  flex-direction: column;
+}
+// 纵向居中
+.flex-y-center {
+  @extend .flex-y;
+  justify-content: center;
+}
+// 纵向两端布局
+.flex-y-between {
+  @extend .flex-y;
+  justify-content: space-between;
+}
+// 纵向水平居中
+.flex-y-center-x {
+  @extend .flex-y;
+  align-items: center;
+}
+
+// 布局换行
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+// 固定页面底部
+.fix-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+// 铺满全屏
+.fix-full {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10;
+}
